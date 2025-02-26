@@ -1,0 +1,32 @@
+.cars {display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: peru;
+
+}
+.bikes {display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: burlywood;
+
+}
+.trucks {display: flex;
+flex-wrap: wrap
+;justify-content: space-between;
+background-color: khaki;
+
+}
+nav {display: flex;
+background-color: blueviolet;}
+ul {display: flex;
+justify-content: space-between;
+width: 100%;
+
+
+}
+main{background-color: black;}
+
+footer{display: flex;
+background-color: violet;
+justify-content: space-between;}
+.contact{flex-direction: column;}
