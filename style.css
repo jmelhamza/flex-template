@@ -28,4 +28,23 @@ main{background-color: black;
 
 background-color: navajowhite;
 justify-content: space-between;}
-.bikes img :nth-child(4){margin: 30px;}
+footer  {display: flex;
+flex-wrap: wrap;
+background-color: navajowhite ;
+justify-content: space-between;
+}
+
+.navbar {display: none;}
+@media screen and (max-width:480px) { .navbar {display: inline-block;}  
+nav>ul {display: none;}
+
+}
+.navbar :hover .list {display: block;}
+
+
+
+
+
+
+
+
