@@ -35,13 +35,16 @@ justify-content: space-between;
 }
 
 .navbar {display: none;}
-@media screen and (max-width:480px) { .navbar {display: inline-block;}  
-nav>ul {display: none;}
+@media screen and (max-width:480px) {.navbar {display: inline-block;} 
+nav>ul {display: none ;}
+
+.navbar:hover + ul, ul:hover {display: flex;
+width: auto;
+flex-direction: column;
+background-color: navajowhite;
+
 
 }
-.navbar :hover .list {display: block;}
-
-
 
 
 
